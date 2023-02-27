@@ -1,0 +1,22 @@
+body{
+    background-color: brown;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.top-image{
+    margin: 25px;
+}
+
+.landing-page-copy{
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: italic;
+}
