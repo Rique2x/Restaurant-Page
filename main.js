@@ -1,1 +1,1 @@
-console.log("hello gang");
+console.log("this is my webpage console");
