@@ -21,29 +21,31 @@ const renderHomePage = (() => {
 </div>
 <div class="location">
 <div class="text-right">
-    <h3>Namibia</h3>
+    <h3>XXXXXXX</h3>
     <span>2 Restaurants</span>
 </div>
 
 <div class="ob">
     <div class="ob-swakop">
     <img src="/dist/location-pics/OCean-Basket-Swakopmund-2-7c9gb0gkfh5yh7a6y3h2kxz2c.png" alt="">
-        <h3>Ocean Basket Swakopmund</h3><hr>
-              <span>C/O Libertina Amathila & Hendrik Witbooi Str nr 27, Swakopmund, Namibia</span>
+        <h3>Ocean Basket Swakop</h3><hr>
+              <span>The Swakop Mall, 123 Forest Drive, Forestville, Maine
+              </span>
              <div class="time">
               <span>Phone</span>
-              <span>+264 64 406 585</span>
+              <span>+XXXXXXXXXX</span>
               <span>Opening Times</span>
               <span>11:30 - 21:00 (mon - sun)</span>
           </div>
     </div>
     <div class="ob-windhoek">
     <img src="/dist/location-pics/ocean-basket-windhoek-7c9gazx6dmdtrhh4i9ed8vfes.png" alt="">
-              <h3>Ocean Basket The Grove (Windhoek)</h3><hr>
-              <span>The Grove Mall, Windhoek, Namibia</span>
+              <h3>Ocean Basket The Grove</h3><hr>
+              <span>The Grove Mall, 456 Hills Boulevard, Hillsville, Saint
+              </span>
              <div class="time">
               <span>Phone</span>
-              <span>+264 61 230 214</span>
+              <span>+XXXXXXXXXX</span>
               <span>Opening Times</span>
               <span>11:00 - 20:00 (mon - sun)</span>
           </div>

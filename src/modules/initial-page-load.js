@@ -12,7 +12,7 @@ const initialPageLoad = (() => {
       <span class="line line3"></span>
     </a>
     <ul class="links">
-      <li data-tab-target="#home" class="tab red">Home</li>
+      <li data-tab-target="#home"  class="tab red">Home</li>
       <li data-tab-target="#menu" class="tab">Menu</li>
       <li data-tab-target="#contact" class="tab">Contact us</li>
     </ul>
