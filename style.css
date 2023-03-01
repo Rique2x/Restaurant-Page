@@ -21,7 +21,7 @@
   }
   
   body {
-    background: var(--pale-yellow);
+    background-color: #003a70;
     overflow-x: hidden;
   }
   
@@ -43,24 +43,6 @@
     font-family: 'Rock Salt', cursive;
   }
   
-  .hamburger {
-    position: absolute;
-    top: 1.5rem;
-    right: 2rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 3rem;
-    height: 2rem;
-  }
-  
-  .hamburger .line {
-    height: 0.3rem;
-    width: 100%;
-    background: white;
-    border-radius: 1rem;
-    transition: 0.3s;
-  }
   
   .links {
     color: var(--pale-yellow);
@@ -101,7 +83,7 @@ li:hover::after {
 .search-container > h2{
   font-size: 4.8em;
   color: rgb(247, 183, 100);
-  font-family: 'Shantell Sans', cursive;
+  font-family: 'Bayon', sans-serif;
 }
 
 
@@ -272,13 +254,26 @@ hr{
 .menu-header{
   text-align: center;
   background-color: #003a70;
+  animation: myAnim 1s ease 0s 1 normal forwards;
 }
 
 .menu-header > h3{
   color: rgb(255, 255, 255);
   font-weight: 400;
   font-size: 2em;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
 .menu-header > p{
@@ -295,18 +290,6 @@ hr{
     display: block;
   }
   
-  .tab-content h1 {
-    font-family: var(--fredoka);
-    font-size: calc(3rem + 2vw);
-    text-align: center;
-  }
-  
-  .tab-content p {
-    font-weight: bolder;
-    font-family: var(--fredoka);
-    font-size: calc(1rem + 0.7vw);
-    text-align: center;
-  }
   
   #home {
     height: 130vh;
@@ -318,13 +301,15 @@ hr{
   }
   
   .list{
-    background-color: #003a70;
+    background-color: #4c6d8b;
     display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     padding: 30px;
     justify-content: center;
     flex-wrap: wrap;
+    
   }
 
   .list-1{
@@ -332,6 +317,7 @@ hr{
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    animation: myAnim 2s ease-in 0s 1 normal forwards;
   }
 
   .list-1 > img{
@@ -343,6 +329,7 @@ hr{
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    animation: myAnim 2s ease-in 0s 1 normal forwards;
   }
 
   .list-2 > img{
@@ -354,9 +341,50 @@ hr{
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    animation: myAnim 2s ease-in 0s 1 normal forwards;
   }
 
+
   .list-3 > img{
+    border-radius: 10px;
+  }
+
+  .list-4{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    animation: myAnim 2s ease-in 0s 1 normal forwards;
+  }
+
+
+  .list-4 > img{
+    border-radius: 10px;
+  }
+
+  .list-5{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    animation: myAnim 2s ease-in 0s 1 normal forwards;
+  }
+
+
+  .list-5 > img{
+    border-radius: 10px;
+  }
+
+  .list-6{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    animation: myAnim1 2s ease-in 0s 1 normal forwards;
+  }
+
+
+  .list-6 > img{
     border-radius: 10px;
   }
 
@@ -367,6 +395,18 @@ hr{
     color: #ffffff;
     border-radius: 0 0 5px 5px;
     padding-top: 20px;
+  }
+
+  @keyframes myAnim {
+    0% {
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
   
   #menu .hero h1 {
