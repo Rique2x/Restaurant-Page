@@ -52,6 +52,56 @@ const renderHomePage = (() => {
           </div>
   </div>
   </div>
+  <footer>
+  <div class="footer1">
+  <div class="company">
+    <h3>More about company</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio dolores voluptate culpa eaque obcaecati, voluptatem sunt vitae consequuntur laborum.</p>
+    <p>-Emma Patricia, CEO</p>
+  </div>
+  <div class="connected">
+    <h3>Keep Connected</h3>
+      <div class="socials">
+        <i class="fa-brands fa-facebook" style="font-size: 2em;"></i>
+        <p>Like us on Facebook</p>
+      </div>
+      <div class="socials">
+        <i class="fa-brands fa-twitter" style="font-size: 2em;"></i>
+        <p>Follow us on Twitter</p>
+      </div>
+      <div class="socials">
+        <i class="fa-brands fa-google-plus" style="font-size: 2em;"></i>
+        <p>Add us on Google Plus</p>
+      </div>
+      <div class="socials">
+        <i class="fa-brands fa-pinterest" style="font-size: 2em;"></i>
+        <p>Follow us on Pinterest</p>
+      </div>
+  </div>
+
+  <div class="info">
+    <h3>Contact Information</h3>
+    <div class="email">
+      <i class="fa-solid fa-envelope" style="font-size: 1.5em;"></i>
+      <p>contact@example.com</p>
+    </div>
+  </div>
+</div>
+<div class="footer2">
+  <p>© Copyright 2023</p>
+    <div class="others">
+      <div class="other1">
+        <p>Company Information</p>
+      </div>
+      <div class="other1">
+        <p>Privacy Policy</p>
+      </div>
+      <div class="other1">
+        <p>Terms & Conditions </p>
+      </div>
+    </div>
+</div>
+</footer>
 </div>`;
   
     contentContainer.appendChild(home);

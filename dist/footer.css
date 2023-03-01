@@ -1,0 +1,111 @@
+.footer1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    justify-content: space-around;
+    font-size: 1.5em;
+    background-color: #003162;;
+    flex-wrap: wrap;
+}
+
+.company{
+    width: 500px;
+    color: rgb(255, 255, 255);
+}
+
+.company > h3{
+    width: 500px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.company > p{
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+}
+
+.company > p:nth-child(3){
+    order: 1px solid;
+    text-align: right;
+    position: relative;
+    top: 10px;
+}
+
+
+.connected > h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.socials > p{
+    color: rgb(255, 255, 255);
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+}
+
+.info{
+    color: rgb(255, 255, 255);
+}
+
+.info > h3{
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.email > p{
+    color: rgb(255, 255, 255);
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+}
+
+.email > i{
+    color: #000;
+}
+
+
+.footer2{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.others{
+    display: flex;
+    gap: 20px;
+}
+
+.other1{
+    cursor: pointer;
+}
+
+.other1::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: rgb(255, 255, 255);
+    transition: width .3s;
+}
+
+.other1:hover::after {
+    width: 100%;
+  }
