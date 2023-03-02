@@ -21,4 +21,3 @@ const initialPageLoad = (() => {
       contentContainer.appendChild(header)
   })();
   
-  export { initialPageLoad };

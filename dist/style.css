@@ -1,12 +1,4 @@
-:root {
-    --pink: #ed1250;
-    --pale-yellow: #fff6da;
-    --dark-blue: #003a70;
-    --orange: #fbc99d;
-    --fredoka: "Fredoka One", cursive;
-   
-  }
-  
+
   *,
   *::before,
   *::after {
@@ -26,26 +18,42 @@
   }
   
   nav {
-    display: flex;
-    position: sticky;
-    align-items: center;
-    justify-content: space-around;
-    min-height: 8vh;
-    background: var(--dark-blue);
-    align-items: center;
-    height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 8vh;
+  background-color: #003a70;
   }
   
   h2 {
-    font-family: var(--fredoka);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: aliceblue;
     font-size: calc(2rem + 1vw);
     font-family: 'Rock Salt', cursive;
   }
   
+  .hamburger {
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 3rem;
+    height: 2rem;
+  }
   
+  .hamburger  .line {
+    height: 0.3rem;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 1rem;
+    transition: 0.3s;
+  }
+  
+
   .links {
-    color: var(--pale-yellow);
+    color: #fff6da;
     font-size: 1.5rem;
     letter-spacing: 2px;
     display: flex;
@@ -53,6 +61,8 @@
     width: 30%;
   }
   
+  
+
   li {
     font-family: 'Helvetica Neue';
     list-style: none;
@@ -423,7 +433,7 @@ button {
   
 
   .help{
-  
+    margin-top: 20px;
     text-align: center;
     color: #fff6da;
     font-family: 'Shantell Sans', cursive;
@@ -487,18 +497,53 @@ hr{
 }
 
 
-.feedback-btn > i, a{
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-
-  
   @media screen and (max-width: 768px) {
+    #home {
+      min-height: 95vh;
+    }
+    nav {
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: column;
+      min-height: 5vh;
+      padding: 1rem;
+    }
+    nav h2 {
+      margin-left: 2rem;
+    }
+    .hamburger {
+      display: flex;
+    }
+    .toggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .toggle .line2 {
+      opacity: 0;
+    }
+  
+    .toggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  
+    .links {
+      padding-top: 1rem;
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+    .links li {
+      text-align: center;
+      padding: 0.5rem 1rem;
+    }
     
+    .links.active {
+      display: flex;
+    }
   }
   
   @media screen and (max-width: 1520px) {
    
   }
+
+ 

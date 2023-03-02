@@ -15,7 +15,7 @@ const renderContactPage = (() => {
       </div>
       <div class="feedback-btn">
         <a href="">
-          <i class="fa-solid fa-location-dot"></i>Restaurant feedback<i id="arrow" class="fa-solid fa-arrow-right"></i>
+          <i class="fa-solid fa-location-dot"></i> Restaurant feedback <i id="arrow" class="fa-solid fa-arrow-right"></i>
         </a>
       </div>
     </div>
