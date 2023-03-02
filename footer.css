@@ -21,7 +21,7 @@
 }
 
 .company > p{
-    font-family: 'Helvetica Neue';
+    font: 1em sans-serif;
     font-weight: 400;
 }
 
@@ -44,12 +44,12 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 10px;
+    padding-bottom: 20px;
 }
 
 .socials > p{
     color: rgb(255, 255, 255);
-    font-family: 'Helvetica Neue';
+    font: 1em sans-serif;
     font-weight: 400;
 }
 
@@ -70,7 +70,7 @@
 
 .email > p{
     color: rgb(255, 255, 255);
-    font-family: 'Helvetica Neue';
+    font: 1em sans-serif;
     font-weight: 400;
 }
 
@@ -80,12 +80,11 @@
 
 
 .footer2{
-    font-size: 1.5em;
+    font: 1.5em sans-serif;
     display: flex;
     justify-content: space-around;
     color: rgb(255, 255, 255);
     padding: 10px;
-    font-family: sans-serif;
 }
 
 .others{
