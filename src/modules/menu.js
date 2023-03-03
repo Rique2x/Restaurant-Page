@@ -7,7 +7,7 @@ const renderMenuPage = (() => {
     menu.innerHTML = `
     <div class="hero">
     <div class="menu-header">
-        <h3>Menu</h3>
+        
         <p>our special meals</p>
     </div>
     <div class="list">

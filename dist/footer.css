@@ -14,6 +14,7 @@
 }
 
 .company > h3{
+  
     width: 500px;
     color: rgb(255, 255, 255);
     padding: 20px;
@@ -107,4 +108,38 @@
 
 .other1:hover::after {
     width: 100%;
+  }
+
+  @media screen and (max-width: 576px) {
+    .footer1{
+        padding: 10px;
+    }
+
+    .company > p{
+        font: 1em sans-serif;
+        font-weight: 400;
+    }
+
+    .company > h3{
+        text-align: center;
+        width: 370px;
+    }
+
+    .company > p{
+        font: 0.7em sans-serif;
+        font-weight: 400;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .company > p:nth-child(3){
+        position: relative;
+        top: 10px;
+        right: 50px;
+    }
+    
+    .footer2{
+        font: 1em sans-serif;
+    }
+    
   }
