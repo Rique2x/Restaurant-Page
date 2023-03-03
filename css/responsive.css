@@ -1,0 +1,317 @@
+
+  @media screen and (max-width: 576px) {
+
+    nav {
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: column;
+      min-height: 5vh;
+      padding: 1rem;
+    }
+    nav h2 {
+      margin-left: 2rem;
+    }
+    .hamburger {
+      display: flex;
+    }
+    .toggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .toggle .line2 {
+      opacity: 0;
+    }
+  
+    .toggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  
+    .links {
+      padding-top: 1rem;
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+    .links li {
+      text-align: center;
+      padding: 0.5rem 1rem;
+    }
+    
+    .links.active {
+      display: flex;
+    }
+
+    .search-container > h2{
+      font-size: 3.5em;
+      color: rgb(247, 183, 100);
+      font-family: 'Bayon', sans-serif;
+    }
+
+    .form-inner{
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      background-color: white;
+      width: 350px;
+      gap: 10px;
+    }
+
+    #restaurant-term{
+      border-radius: 5px;
+      width: 300px;
+      border: 1px solid rgb(255, 255, 255);
+      padding: 25px;
+      font-size: 11px;
+      color: #003a70;
+    }
+
+    .ob-windhoek{
+      width: 400px; 
+    }
+
+    .ob-windhoek > span{
+      font-size: 15px;
+    }
+
+    .ob-windhoek > h3{
+      font-size: 15px;   
+    }
+
+  
+    .ob-swakop{
+      width: 400px;   
+    }
+
+    .ob-swakop > span{
+      font-size: 15px;
+    }
+
+    .ob-swakop > h3{
+      font-size: 15px;   
+    }
+
+    .time > span{
+      font-size: 15px;
+    }
+
+    .list-1{
+      width: 300px;
+      font-size: 0.8em;
+    }
+    .list-2{
+      width: 300px;
+      font-size: 0.8em;
+    }
+    .list-3{
+      width: 300px;
+      font-size: 0.8em;
+    }
+    .list-4{
+      width: 300px;
+      font-size: 0.8em;
+    }
+    .list-5{
+      width: 300px;
+      font-size: 0.8em;
+    }
+    .list-6{
+      width: 300px;
+      font-size: 0.8em;
+    }
+
+    .help{
+      margin-top: 20px;
+      text-align: center;
+      color: #fff6da;
+      font-family: 'Shantell Sans', cursive;
+      font-size: 3em;
+  }
+
+  .feedback-area{
+    margin: 80px 0 0 80px;
+    width: 300px;
+    border-radius: 10px;
+    background-color:#0f4c85;
+    margin: 0 auto;
+    margin-top: 50px
+}
+
+.feedback-para{
+  text-align: center;
+  padding: 30px;
+  font: 1.7em sans-serif;
+  height: 100px;
+}
+
+.feedback-btn{
+  border-top: 1px solid gray;
+  margin: 0px;
+  font: 1.7em sans-serif;
+  padding: 15px;
+  cursor: pointer;
+  height: 100px;  
+  justify-content: center;
+  width: 270px;
+  height: 75px;
+}
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+
+    nav {
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: column;
+      min-height: 5vh;
+      padding: 1rem;
+    }
+    nav h2 {
+      margin-left: 2rem;
+    }
+    .hamburger {
+      display: flex;
+    }
+    .toggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .toggle .line2 {
+      opacity: 0;
+    }
+  
+    .toggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  
+    .links {
+      padding-top: 1rem;
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+    .links li {
+      text-align: center;
+      padding: 0.5rem 1rem;
+    }
+    
+    .links.active {
+      display: flex;
+    }
+
+    .search-container > h2{
+      font-size: 3.5em;
+      color: rgb(247, 183, 100);
+      font-family: 'Bayon', sans-serif;
+    }
+
+    .form-inner{
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      background-color: white;
+      width: 350px;
+      gap: 10px;
+    }
+
+    #restaurant-term{
+      border-radius: 5px;
+      width: 300px;
+      border: 1px solid rgb(255, 255, 255);
+      padding: 25px;
+      font-size: 11px;
+      color: #003a70;
+    }
+
+    .ob-windhoek{
+      width: 400px; 
+    }
+
+    .ob-windhoek > span{
+      font-size: 15px;
+    }
+
+    .ob-windhoek > h3{
+      font-size: 15px;   
+    }
+
+  
+    .ob-swakop{
+      width: 400px;   
+    }
+
+    .ob-swakop > span{
+      font-size: 15px;
+    }
+
+    .ob-swakop > h3{
+      font-size: 15px;   
+    }
+
+    .time > span{
+      font-size: 15px;
+    }
+
+    .list-1{
+      width: 300px;
+      font-size: 0.8em;
+    }
+    .list-2{
+      width: 300px;
+      font-size: 0.8em;
+    }
+    .list-3{
+      width: 300px;
+      font-size: 0.8em;
+    }
+    .list-4{
+      width: 300px;
+      font-size: 0.8em;
+    }
+    .list-5{
+      width: 300px;
+      font-size: 0.8em;
+    }
+    .list-6{
+      width: 300px;
+      font-size: 0.8em;
+    }
+
+    .help{
+      margin-top: 20px;
+      text-align: center;
+      color: #fff6da;
+      font-family: 'Shantell Sans', cursive;
+      font-size: 3em;
+  }
+
+  .feedback-area{
+    margin: 80px 0 0 80px;
+    width: 300px;
+    border-radius: 10px;
+    background-color:#0f4c85;
+    margin: 0 auto;
+    margin-top: 50px
+}
+
+.feedback-para{
+  text-align: center;
+  padding: 30px;
+  font: 1.7em sans-serif;
+  height: 100px;
+}
+
+.feedback-btn{
+  border-top: 1px solid gray;
+  margin: 0px;
+  font: 1.7em sans-serif;
+  padding: 15px;
+  cursor: pointer;
+  height: 100px;  
+  justify-content: center;
+  width: 270px;
+  height: 75px;
+}
+  }
+  
+ 
