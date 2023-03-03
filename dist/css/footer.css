@@ -123,6 +123,40 @@
     .company > h3{
         text-align: center;
         width: 370px;
+        margin: 0 auto;
+    }
+
+    .company > p{
+        font: 0.7em sans-serif;
+        font-weight: 400;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .company > p:nth-child(3){
+        position: relative;
+        top: 10px;
+        right: 50px;
+    }
+    
+    .footer2{
+        font: 1em sans-serif;
+    }
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer1{
+        padding: 10px;
+    }
+
+    .company > p{
+        font: 1em sans-serif;
+        font-weight: 400;
+    }
+
+    .company > h3{
+        text-align: center;
     }
 
     .company > p{
