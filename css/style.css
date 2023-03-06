@@ -300,26 +300,6 @@ button {
   .active[data-tab-content] {
     display: block;
   }
-  
-  
-  #home {
-    height: 500px;
-    background: url(./images/stacked-waves-haikei.svg);
-    background-size: cover;
-  }
-  
-  .list{
-    background-image: url(./images/stacked-waves-haikei\ \(2\).svg);
-    background-size: cover;
-    display: grid;
-    display: flex;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding: 30px;
-    justify-content: center;
-    flex-wrap: wrap;
-    animation: myWave 1s ease 0s 1 normal forwards;
-  }
 
   @keyframes myWave {
     0% {
