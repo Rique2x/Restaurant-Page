@@ -300,6 +300,18 @@ button {
   .active[data-tab-content] {
     display: block;
   }
+  
+
+  .list{
+    
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
   @keyframes myWave {
     0% {
