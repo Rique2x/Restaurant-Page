@@ -1,5 +1,5 @@
 import { initialPageLoad }from './modules/initial-page-load';
-import { contactPage } from './modules/contact';
+import { renderContactPage } from './modules/contact';
 import { renderHomePage } from "./modules/home";
 import { renderMenuPage } from "./modules/menu";
 
