@@ -304,12 +304,12 @@ button {
   
   #home {
     height: 500px;
-    background-image: url("/dist/images/stacked-waves-haikei.svg");
+    background: url(./images/stacked-waves-haikei.svg);
     background-size: cover;
   }
   
   .list{
-    background-image: url(/dist/images/stacked-waves-haikei\ \(2\).svg);
+    background-image: url(./images/stacked-waves-haikei\ \(2\).svg);
     background-size: cover;
     display: grid;
     display: flex;
