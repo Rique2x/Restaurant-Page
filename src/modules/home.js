@@ -27,7 +27,7 @@ const renderHomePage = (() => {
 
 <div class="ob">
     <div class="ob-swakop">
-    <img src="/dist/location-pics/rique_restaurant_exterior_169_people_walking_past_two_different_5e0d5912-2f55-4939-bffb-8471b6075ecd.png" alt="">
+    <img src="./location-pics/rique_restaurant_exterior_169_people_walking_past_two_different_5e0d5912-2f55-4939-bffb-8471b6075ecd.png" alt="">
         <h3>Ocean Basket Swakop</h3>
               <span>The Swakop Mall, 123 Forest Drive, Forestville, Maine
               </span>
@@ -39,7 +39,7 @@ const renderHomePage = (() => {
           </div>
     </div>
     <div class="ob-windhoek">
-    <img src="/dist/location-pics/rique_restaurant_exterior_169_people_walking_past_two_different_2bf9b486-7eec-4019-bdda-f3ff87953c13.png" alt="">
+    <img src="./location-pics/rique_restaurant_exterior_169_people_walking_past_two_different_2bf9b486-7eec-4019-bdda-f3ff87953c13.png" alt="">
               <h3>Ocean Basket The Grove</h3>
               <span>The Grove Mall, 456 Hills Boulevard, Hillsville, Saint
               </span>
