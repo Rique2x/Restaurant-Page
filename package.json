@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "repository": {
-    "url": "git+https://rique2x.github.io/Restaurant-Page/.git"
+    "url": "git+https://rique2x.github.io/Restaurant-Page/"
   },
   "scripts": {
     "build": "webpack --mode=development",

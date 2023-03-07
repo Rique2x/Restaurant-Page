@@ -4,7 +4,7 @@ const renderHomePage = (() => {
   
     const home = document.createElement("div");
     home.classList.add("tab-content")
-    home.innerHTML = `<div id="home" class="active" data-tab-content>
+    home.innerHTML = `<div id="home" class="active" data-tab-content style="background-image: url(./images/stacked-waves-haikei.svg);background-size: cover; height: 500px;">
     <div class="search-container">
     <h2>Find a restaurant
     </h2>
