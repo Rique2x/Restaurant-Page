@@ -22,7 +22,7 @@
 }
 
 .company > p{
-    font: 1em sans-serif;
+    font: 0.7em sans-serif;
     font-weight: 400;
 }
 
@@ -50,7 +50,7 @@
 
 .socials > p{
     color: rgb(255, 255, 255);
-    font: 1em sans-serif;
+    font: 0.7em sans-serif;
     font-weight: 400;
 }
 
@@ -71,7 +71,7 @@
 
 .email > p{
     color: rgb(255, 255, 255);
-    font: 1em sans-serif;
+    font: 0.7em sans-serif;
     font-weight: 400;
 }
 
@@ -81,7 +81,7 @@
 
 
 .footer2{
-    font: 1.5em sans-serif;
+    font: 1em sans-serif;
     display: flex;
     justify-content: space-around;
     color: rgb(255, 255, 255);
@@ -116,7 +116,7 @@
     }
 
     .company > p{
-        font: 1em sans-serif;
+        font: 0.7em sans-serif;
         font-weight: 400;
     }
 

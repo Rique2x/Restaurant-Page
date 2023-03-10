@@ -51,7 +51,7 @@
 
   .links {
     color: #fff6da;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     letter-spacing: 2px;
     display: flex;
     justify-content: space-around;
@@ -163,7 +163,7 @@ button {
   
 .ob-swakop {
   border-radius: 10px;
-  width: 630px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   background-color: aliceblue;
@@ -212,7 +212,7 @@ button {
   
 .ob-windhoek{
   border-radius: 10px;
-  width: 630px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   background-color: aliceblue;
@@ -426,7 +426,7 @@ button {
     text-align: center;
     color: #fff6da;
     font-family: 'Shantell Sans', cursive;
-    font-size: 5em;
+    font-size: 3.5em;
 }
 
 .feedback-area{
